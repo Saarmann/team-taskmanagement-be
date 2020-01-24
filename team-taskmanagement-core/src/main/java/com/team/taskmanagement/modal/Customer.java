@@ -1,5 +1,8 @@
 package com.team.taskmanagement.modal;
 
+import lombok.Data;
+
+@Data
 public class Customer {
 
     private int id;
@@ -14,5 +17,23 @@ public class Customer {
     private String customerEmail;
     private String contact;
     private int paymentTerm;
+
+    @Override
+    public String toString() {
+        return " \n Customer{" +
+                "id=" + id +
+                ", customerName=" + customerName +
+                ", registrationCode='" + registrationCode + '\'' +
+                ", vatNo='" + vatNo + '\'' +
+                ", address='" + address + '\'' +
+                ", city='" + city + '\'' +
+                ", state='" + state + '\'' +
+                ", country='" + country + '\'' +
+                ", zip='" + zip + '\'' +
+                ", customerEmail='" + customerEmail + '\'' +
+                ", contact='" + contact + '\'' +
+                ", paymentTerm=" + paymentTerm +
+                "} ";
+    }
 
 }

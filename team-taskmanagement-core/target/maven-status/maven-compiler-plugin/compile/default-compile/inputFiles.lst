@@ -1,1 +1,7 @@
-C:\Git\team-taskmanagemet-be\team-taskmanagement-core\src\main\java\com\knits\spring\jdbc\kaspar\demo\config\AppDemoConfig.java
+C:\Git\team-taskmanagemet-be\team-taskmanagement-core\src\main\java\com\team\taskmanagement\config\TeamTaskMngCoreConfig.java
+C:\Git\team-taskmanagemet-be\team-taskmanagement-core\src\main\java\com\team\taskmanagement\com\DemoMain.java
+C:\Git\team-taskmanagemet-be\team-taskmanagement-core\src\main\java\com\team\taskmanagement\modal\Customer.java
+C:\Git\team-taskmanagemet-be\team-taskmanagement-core\src\main\java\com\team\taskmanagement\dao\CustomerDaoImpl.java
+C:\Git\team-taskmanagemet-be\team-taskmanagement-core\src\main\java\com\team\taskmanagement\dao\helpers\Queries.java
+C:\Git\team-taskmanagemet-be\team-taskmanagement-core\src\main\java\com\team\taskmanagement\dao\CustomerDao.java
+C:\Git\team-taskmanagemet-be\team-taskmanagement-core\src\main\java\com\team\taskmanagement\dao\helpers\CustomerRowMapper.java
