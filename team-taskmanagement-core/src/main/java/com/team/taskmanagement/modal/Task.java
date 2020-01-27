@@ -1,8 +1,11 @@
 package com.team.taskmanagement.modal;
 
+import lombok.Data;
+
 import java.sql.Date;
 import java.sql.Time;
 
+@Data
 public class Task {
 
     private Date taskDate;

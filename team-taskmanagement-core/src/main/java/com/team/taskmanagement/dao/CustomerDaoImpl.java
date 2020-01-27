@@ -25,7 +25,7 @@ public class CustomerDaoImpl extends JdbcDaoSupport implements CustomerDao {
     }
 
     @Override
-    public Customer findById(int id) {
+    public Customer findById(long id) {
         return getJdbcTemplate().queryForObject("SELECT * from Customer where id=?", new Object [] {id}, customerRowMapper);
     }
 
@@ -64,7 +64,7 @@ public class CustomerDaoImpl extends JdbcDaoSupport implements CustomerDao {
                 " where id=" +id;
 
         getJdbcTemplate().update(sql,
-                new Object[]{
+
                         customer.getCustomerName(),
                         customer.getVatNo(),
                         customer.getAddress(),
@@ -75,7 +75,7 @@ public class CustomerDaoImpl extends JdbcDaoSupport implements CustomerDao {
                         customer.getCustomerEmail(),
                         customer.getContact(),
                         customer.getPaymentTerm()
-                });
+                );
 
     }
 }

@@ -2,6 +2,7 @@ package com.team.taskmanagement.com;
 
 import com.team.taskmanagement.config.TeamTaskMngCoreConfig;
 import com.team.taskmanagement.dao.CustomerDao;
+import com.team.taskmanagement.dao.TaskDao;
 import com.team.taskmanagement.dao.helpers.MockData;
 import com.team.taskmanagement.modal.Customer;
 import org.springframework.context.ApplicationContext;
@@ -17,7 +18,8 @@ public class DemoMain {
 //        demoDaoImplByName("customerDaoImpl"); //bean name lower case
 //        customerList("customerDaoImpl");
 //        addNewCustomer("customerDaoImpl");
-        editMyCustomer("customerDaoImpl");
+//        editMyCustomer("customerDaoImpl");
+        taskList("taskDaoImpl");
 
 
     }
@@ -52,6 +54,14 @@ public class DemoMain {
         CustomerDao customerDao = context.getBean(daoBeanImpl,CustomerDao.class);
         customerDao.editCustomer(editCustomer(), 2);
         System.out.println("Found "+customerDao.myCustomerList());
+
+    }
+
+    private static void taskList(String daoBeanImpl){
+        ApplicationContext context = new AnnotationConfigApplicationContext(TeamTaskMngCoreConfig.class);
+        TaskDao taskDao = context.getBean(daoBeanImpl,TaskDao.class);
+        System.out.println("Found "+ taskDao.myTaskList());
+
 
     }
 }

@@ -8,7 +8,7 @@ public interface CustomerDao {
 
     public void addCustomer (Customer customer);
 
-    public Customer findById (int id);
+    public Customer findById (long id);
 
     public List<Customer> myCustomerList();
 
