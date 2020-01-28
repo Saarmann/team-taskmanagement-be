@@ -2,11 +2,14 @@ package com.team.taskmanagement.com;
 
 import com.team.taskmanagement.config.TeamTaskMngCoreConfig;
 import com.team.taskmanagement.dao.CustomerDao;
+import com.team.taskmanagement.dao.CustomerDaoImpl;
 import com.team.taskmanagement.dao.TaskDao;
 import com.team.taskmanagement.dao.helpers.MockData;
 import com.team.taskmanagement.modal.Customer;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import java.util.List;
 
 import static com.team.taskmanagement.dao.helpers.MockData.editCustomer;
 import static com.team.taskmanagement.dao.helpers.MockData.newCustomer;
@@ -19,8 +22,9 @@ public class DemoMain {
 //        customerList("customerDaoImpl");
 //        addNewCustomer("customerDaoImpl");
 //        editMyCustomer("customerDaoImpl");
-        taskList("taskDaoImpl");
-
+//        taskList("taskDaoImpl");
+//        showCustomerTask("taskDaoImpl");
+        customerTask();
 
     }
 
@@ -62,6 +66,22 @@ public class DemoMain {
         TaskDao taskDao = context.getBean(daoBeanImpl,TaskDao.class);
         System.out.println("Found "+ taskDao.myTaskList());
 
+    }
+
+    private static void showCustomerTask(String daoBeanImpl){
+        ApplicationContext context = new AnnotationConfigApplicationContext(TeamTaskMngCoreConfig.class);
+        TaskDao taskDao = context.getBean(daoBeanImpl,TaskDao.class);
+        System.out.println("Found "+ taskDao.showByCustomerName("New Company"));
+
+    }
+
+    private static void customerTask(){
+        ApplicationContext context = new AnnotationConfigApplicationContext(TeamTaskMngCoreConfig.class);
+        CustomerDao customerDao = context.getBean(CustomerDao.class);
+        List<Customer> customers= customerDao.findAll();
+
+        System.out.println("Found "+ customers.size());
+        System.out.println("Found "+ customers.get(1));
 
     }
 }

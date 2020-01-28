@@ -2,6 +2,7 @@ package com.team.taskmanagement.config;
 
 
 import com.team.taskmanagement.dao.helpers.CustomerRowMapper;
+import com.team.taskmanagement.dao.helpers.TaskRowMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -41,7 +42,11 @@ public class TeamTaskMngCoreConfig {
 	    return new CustomerRowMapper();
     }
 
-	
+    @Bean
+	public TaskRowMapper taskRowMapper(){
+		return new TaskRowMapper();
+	}
+
 	@Bean
 	public JdbcTemplate jdbcTemplate(DataSource datasource){
 		return new JdbcTemplate(datasource);

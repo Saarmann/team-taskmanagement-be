@@ -9,7 +9,7 @@ public interface TaskDao {
 
     public List<Task> myTaskList();
 
-//    public List<Task> showByCustomerName (String customerName);
+    public List<Task> showByCustomerName (String customerName);
 
 
 }

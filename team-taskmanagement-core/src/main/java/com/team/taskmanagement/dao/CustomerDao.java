@@ -1,6 +1,7 @@
 package com.team.taskmanagement.dao;
 
 import com.team.taskmanagement.modal.Customer;
+import com.team.taskmanagement.modal.Task;
 
 import java.util.List;
 
@@ -12,6 +13,9 @@ public interface CustomerDao {
 
     public List<Customer> myCustomerList();
 
-    public void editCustomer (Customer customer, int id);
+    public void editCustomer (Customer customer, long id);
+
+    public List<Customer> findAll ();
+
 
 }
