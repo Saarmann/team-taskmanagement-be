@@ -42,7 +42,6 @@ public class DemoMain {
         CustomerDao customerDao = context.getBean(daoBeanImpl,CustomerDao.class);
         System.out.println("Found "+customerDao.myCustomerList());
 
-
     }
 
     private static void addNewCustomer(String daoBeanImpl){

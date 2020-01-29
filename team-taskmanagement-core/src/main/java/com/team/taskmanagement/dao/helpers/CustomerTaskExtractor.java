@@ -50,4 +50,6 @@ public class CustomerTaskExtractor implements ResultSetExtractor<Map<Long, Custo
         return task;
 
     }
+
+
 }
