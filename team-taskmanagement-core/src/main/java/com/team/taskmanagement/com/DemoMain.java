@@ -4,15 +4,16 @@ import com.team.taskmanagement.config.TeamTaskMngCoreConfig;
 import com.team.taskmanagement.dao.CustomerDao;
 import com.team.taskmanagement.dao.CustomerDaoImpl;
 import com.team.taskmanagement.dao.TaskDao;
+import com.team.taskmanagement.dao.UserDao;
 import com.team.taskmanagement.dao.helpers.MockData;
 import com.team.taskmanagement.modal.Customer;
+import com.team.taskmanagement.modal.User;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import java.util.List;
 
-import static com.team.taskmanagement.dao.helpers.MockData.editCustomer;
-import static com.team.taskmanagement.dao.helpers.MockData.newCustomer;
+import static com.team.taskmanagement.dao.helpers.MockData.*;
 
 public class DemoMain {
 
@@ -24,7 +25,11 @@ public class DemoMain {
 //        editMyCustomer("customerDaoImpl");
 //        taskList("taskDaoImpl");
 //        showCustomerTask("taskDaoImpl");
-        customerTask();
+//        customerTask();
+//        userByName("userDaoImpl");
+//        addNewUser("userDaoImpl");
+//        updateHiUser("userDaoImpl");
+        userList();
 
     }
 
@@ -82,5 +87,33 @@ public class DemoMain {
         System.out.println("Found "+ customers.size());
         System.out.println("Found "+ customers.get(1));
 
+    }
+
+    private static void userByName(String daoBeanImpl){
+        ApplicationContext context = new AnnotationConfigApplicationContext(TeamTaskMngCoreConfig.class);
+        UserDao userDao = context.getBean(daoBeanImpl,UserDao.class);
+        User user = userDao.findById(1L);
+        System.out.println("Found "+user.toString());
+    }
+
+    private static void addNewUser(String daoBeanImpl){
+        ApplicationContext context = new AnnotationConfigApplicationContext(TeamTaskMngCoreConfig.class);
+        UserDao userDao = context.getBean(daoBeanImpl,UserDao.class);
+        userDao.save(mockUser());
+
+    }
+
+    private static void updateHiUser(String daoBeanImpl){
+        ApplicationContext context = new AnnotationConfigApplicationContext(TeamTaskMngCoreConfig.class);
+        UserDao userDao = context.getBean(daoBeanImpl,UserDao.class);
+        userDao.save(updateUser());
+
+    }
+
+    private static void userList() {
+        ApplicationContext context = new AnnotationConfigApplicationContext(TeamTaskMngCoreConfig.class);
+        UserDao userDao = context.getBean(UserDao.class);
+        List<User> users = userDao.findAll();
+        System.out.println("Found " + users.toString());
     }
 }

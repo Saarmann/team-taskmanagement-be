@@ -1,6 +1,7 @@
 package com.team.taskmanagement.dao.helpers;
 
 import com.team.taskmanagement.modal.Customer;
+import com.team.taskmanagement.modal.User;
 
 public class MockData {
 
@@ -39,6 +40,25 @@ public class MockData {
 
     }
 
+    public static User mockUser() {
 
+        User user = new User();
+        user.setFirstname("Hiber");
+        user.setLastname("Boss");
+        user.setEmail("hibernate@user.com");
+        user.setPassword("54sa54da");
+        return user;
+    }
+
+    public static User updateUser() {
+
+        User user = new User();
+//        user.setId(7L);
+        user.setFirstname("Santa");
+        user.setLastname("Claus");
+        user.setEmail("hibernate@user.com");
+        user.setPassword("54sa54da");
+        return user;
+    }
 
 }
