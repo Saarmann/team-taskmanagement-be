@@ -6,27 +6,28 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
+import javax.persistence.NamedQueries;
+import javax.persistence.NamedQuery;
 
 @Data
 @Entity
-//@NamedQueries({
-//        @NamedQuery(
-//        name = "User_ById",
-//        query = "from user where id = :id"
-//        ),
-//
-//        @NamedQuery(
-//                name = "User_byLastName",
-//                query = "from User where lastname = ;lastname"
-//        )
-//})
+@NamedQueries({
+        @NamedQuery(
+        name = "All_users",
+        query = "from User"
+        ),
+
+        @NamedQuery(
+                name = "User_byId",
+                query = "from User where id = :id"
+        )
+})
 
 public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private long id;
-
 
     private String firstname;
     private String lastname;
@@ -35,7 +36,7 @@ public class User {
 
     @Override
     public String toString() {
-        return "User{" +
+        return "\n User{" +
                 "id=" + id +
                 ", firstname='" + firstname + '\'' +
                 ", lastname='" + lastname + '\'' +

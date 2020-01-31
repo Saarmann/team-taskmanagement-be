@@ -12,7 +12,7 @@ public interface UserDao {
 
     public List<User> findAll ();
 
-    public void update (User updatedUser);
+    public void update(User updatedUser);
 
 
 }

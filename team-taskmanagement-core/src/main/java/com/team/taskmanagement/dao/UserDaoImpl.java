@@ -42,13 +42,8 @@ public class UserDaoImpl  implements UserDao{
     public List<User> findAll () {
         Session session = sessionFactory.getCurrentSession();
         session.getTransaction().begin();
-        Query<User> query = session.createSQLQuery("Select * from user");
-        List<User> users = query.getResultList(); //returns object list
-//
-//        List<User> myuser = new ArrayList<>(users.size());
-//        for (User: users) {
-//            myuser.add(new ArrayList<>());
-//        }
+        List<User> users = session.createNamedQuery("All_users").list();
+//        List<User> users = query.getResultList(); //returns object list
 
         session.getTransaction().commit();
         return users;
@@ -59,6 +54,9 @@ public class UserDaoImpl  implements UserDao{
     public void update(User updatedUser) {
         Session session = sessionFactory.getCurrentSession();
         session.getTransaction().begin();
+//        Query<User> query = session.createNamedQuery("User_byId");
+//        query.setParameter("id", updatedUser.getId());
+
         session.update(updatedUser);
         session.getTransaction().commit();
     }

@@ -53,10 +53,10 @@ public class MockData {
     public static User updateUser() {
 
         User user = new User();
-//        user.setId(7L);
-        user.setFirstname("Santa");
-        user.setLastname("Claus");
-        user.setEmail("hibernate@user.com");
+        user.setId(2L);
+        user.setFirstname("Donald");
+        user.setLastname("Duck");
+        user.setEmail("mouse@user.com");
         user.setPassword("54sa54da");
         return user;
     }

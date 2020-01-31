@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6429dc4c-b96d-46b6-af4f-3bf18eb9236f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/team-taskmanagement-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/team-taskmanagement-core/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/com/DemoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/com/DemoMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/config/TeamTaskMngCoreConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/config/TeamTaskMngCoreConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/dao/UserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/dao/UserDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/dao/helpers/MockData.java" beforeDir="false" afterPath="$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/dao/helpers/MockData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/modal/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/modal/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team-taskmanagement-core/src/main/resources/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/team-taskmanagement-core/src/main/resources/database.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team-taskmanagement-core/target/classes/com/team/taskmanagement/com/DemoMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/team-taskmanagement-core/target/classes/com/team/taskmanagement/com/DemoMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team-taskmanagement-core/target/classes/com/team/taskmanagement/config/TeamTaskMngCoreConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/team-taskmanagement-core/target/classes/com/team/taskmanagement/config/TeamTaskMngCoreConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team-taskmanagement-core/target/classes/com/team/taskmanagement/modal/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/team-taskmanagement-core/target/classes/com/team/taskmanagement/modal/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team-taskmanagement-core/target/classes/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/team-taskmanagement-core/target/classes/database.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/team-taskmanagement-core/target/" />
@@ -30,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/dao/UserDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="46" selection-start-line="46" selection-start-column="2" selection-end-line="50" selection-end-column="11" />
+            <state relative-caret-position="462">
+              <caret line="53" column="39" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,10 +36,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/team-taskmanagement-core/src/main/resources/database.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/modal/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="37" column="22" lean-forward="true" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+            <state relative-caret-position="238">
+              <caret line="20" column="33" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,8 +59,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/dao/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            <state relative-caret-position="238">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/com/DemoMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
-              <caret line="116" column="52" selection-start-line="116" selection-start-column="44" selection-end-line="116" selection-end-column="52" />
+            <state relative-caret-position="417">
+              <caret line="108" column="20" lean-forward="true" selection-start-line="108" selection-start-column="20" selection-end-line="108" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/dao/helpers/MockData.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
-              <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="25" />
+              <caret line="55" column="20" lean-forward="true" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -139,9 +141,9 @@
         <option value="$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/config/TeamTaskMngCoreConfig.java" />
         <option value="$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/dao/helpers/MockData.java" />
         <option value="$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/com/DemoMain.java" />
         <option value="$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/modal/User.java" />
         <option value="$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/dao/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/com/DemoMain.java" />
       </list>
     </option>
   </component>
@@ -177,7 +179,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1167" />
@@ -296,9 +298,9 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.28390804" />
+    <property name="project.structure.side.proportion" value="0.6896552" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -347,10 +349,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1167" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.38183808" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20042644" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -359,7 +360,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32981783" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27659574" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27420902" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -397,16 +398,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/modal/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -460,13 +451,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/team-taskmanagement-core/src/main/resources/database.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/dao/helpers/CustomerTaskExtractor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
@@ -513,16 +497,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/com/DemoMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="116" column="52" selection-start-line="116" selection-start-column="44" selection-end-line="116" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/dao/CustomerDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -533,30 +507,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/dao/helpers/MockData.java">
+    <entry file="file://$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/modal/Task.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/modal/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="37" column="22" lean-forward="true" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        <state relative-caret-position="400">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -565,8 +519,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/dao/UserDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="46" selection-start-line="46" selection-start-column="2" selection-end-line="50" selection-end-column="11" />
+        <state relative-caret-position="462">
+          <caret line="53" column="39" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/modal/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/dao/helpers/MockData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="55" column="20" lean-forward="true" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team-taskmanagement-core/src/main/resources/database.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/com/DemoMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="108" column="20" lean-forward="true" selection-start-line="108" selection-start-column="20" selection-end-line="108" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -628,7 +629,8 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.28390804" />
+                <option value="0.6896552" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

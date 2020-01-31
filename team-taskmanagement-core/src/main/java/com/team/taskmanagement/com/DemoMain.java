@@ -28,8 +28,8 @@ public class DemoMain {
 //        customerTask();
 //        userByName("userDaoImpl");
 //        addNewUser("userDaoImpl");
-//        updateHiUser("userDaoImpl");
-        userList();
+        updateHiUser("userDaoImpl");
+//        userList();
 
     }
 
@@ -106,7 +106,7 @@ public class DemoMain {
     private static void updateHiUser(String daoBeanImpl){
         ApplicationContext context = new AnnotationConfigApplicationContext(TeamTaskMngCoreConfig.class);
         UserDao userDao = context.getBean(daoBeanImpl,UserDao.class);
-        userDao.save(updateUser());
+        userDao.update(updateUser());
 
     }
 
