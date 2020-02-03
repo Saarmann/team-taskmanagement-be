@@ -6,8 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="TMS-WEB" />
         <module name="team-taskmanagement-core" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="team-taskmanagement-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="TMS-WEB" options="-parameters" />
+    </option>
   </component>
 </project>
