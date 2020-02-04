@@ -1,0 +1,17 @@
+com\team\taskmanagement\dao\TaskDaoImpl.class
+com\team\taskmanagement\dao\helpers\CustomerRowMapper.class
+com\team\taskmanagement\modal\User.class
+com\team\taskmanagement\dao\UserDao.class
+com\team\taskmanagement\dao\helpers\CustomerTaskExtractor.class
+com\team\taskmanagement\modal\Invoice.class
+com\team\taskmanagement\dao\TaskDao.class
+com\team\taskmanagement\dao\UserDaoImpl.class
+com\team\taskmanagement\modal\Task.class
+com\team\taskmanagement\dao\helpers\Queries.class
+com\team\taskmanagement\dao\helpers\MockData.class
+com\team\taskmanagement\dao\helpers\TaskRowMapper.class
+com\team\taskmanagement\com\DemoMain.class
+com\team\taskmanagement\dao\CustomerDaoImpl.class
+com\team\taskmanagement\modal\Customer.class
+com\team\taskmanagement\dao\CustomerDao.class
+com\team\taskmanagement\config\TeamTaskMngCoreConfig.class

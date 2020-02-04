@@ -2,10 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6429dc4c-b96d-46b6-af4f-3bf18eb9236f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/team-taskmanagement-web/src/main/java/com/team/taskmanagement/web/TeamTaskManagementApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team-taskmanagement-web/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team-taskmanagement-web/target/classes/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team-taskmanagement-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team-taskmanagement-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-taskmanagement-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/team-taskmanagement-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-taskmanagement-core/target/classes/META-INF/team-taskmanagement-core.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-taskmanagement-core/target/classes/com/team/taskmanagement/com/DemoMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/team-taskmanagement-core/target/classes/com/team/taskmanagement/com/DemoMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-taskmanagement-core/target/classes/com/team/taskmanagement/config/TeamTaskMngCoreConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/team-taskmanagement-core/target/classes/com/team/taskmanagement/config/TeamTaskMngCoreConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-taskmanagement-core/target/classes/com/team/taskmanagement/dao/CustomerDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/team-taskmanagement-core/target/classes/com/team/taskmanagement/dao/CustomerDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-taskmanagement-core/target/classes/com/team/taskmanagement/dao/CustomerDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/team-taskmanagement-core/target/classes/com/team/taskmanagement/dao/CustomerDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-taskmanagement-core/target/classes/com/team/taskmanagement/dao/TaskDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/team-taskmanagement-core/target/classes/com/team/taskmanagement/dao/TaskDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-taskmanagement-core/target/classes/com/team/taskmanagement/dao/TaskDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/team-taskmanagement-core/target/classes/com/team/taskmanagement/dao/TaskDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-taskmanagement-core/target/classes/com/team/taskmanagement/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/team-taskmanagement-core/target/classes/com/team/taskmanagement/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-taskmanagement-core/target/classes/com/team/taskmanagement/dao/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/team-taskmanagement-core/target/classes/com/team/taskmanagement/dao/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-taskmanagement-core/target/classes/com/team/taskmanagement/dao/helpers/CustomerRowMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/team-taskmanagement-core/target/classes/com/team/taskmanagement/dao/helpers/CustomerRowMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-taskmanagement-core/target/classes/com/team/taskmanagement/dao/helpers/CustomerTaskExtractor.class" beforeDir="false" afterPath="$PROJECT_DIR$/team-taskmanagement-core/target/classes/com/team/taskmanagement/dao/helpers/CustomerTaskExtractor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-taskmanagement-core/target/classes/com/team/taskmanagement/dao/helpers/TaskRowMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/team-taskmanagement-core/target/classes/com/team/taskmanagement/dao/helpers/TaskRowMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-taskmanagement-core/target/classes/com/team/taskmanagement/modal/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/team-taskmanagement-core/target/classes/com/team/taskmanagement/modal/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-taskmanagement-core/target/classes/com/team/taskmanagement/modal/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/team-taskmanagement-core/target/classes/com/team/taskmanagement/modal/Task.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-taskmanagement-core/target/classes/com/team/taskmanagement/modal/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/team-taskmanagement-core/target/classes/com/team/taskmanagement/modal/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-taskmanagement-core/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/team-taskmanagement-core/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-taskmanagement-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/team-taskmanagement-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-taskmanagement-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/team-taskmanagement-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-taskmanagement-core/target/team-taskmanagement-core-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/team-taskmanagement-core/target/team-taskmanagement-core-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-taskmanagement-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/team-taskmanagement-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-taskmanagement-web/src/main/java/com/knits/tms/web/TmsApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-taskmanagement-web/src/main/java/com/knits/tms/web/beans/ResponseBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-taskmanagement-web/src/main/java/com/knits/tms/web/controllers/CommonRestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-taskmanagement-web/src/main/java/com/knits/tms/web/controllers/CourseRestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-taskmanagement-web/src/main/java/com/knits/tms/web/controllers/EditionRestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-taskmanagement-web/src/main/java/com/knits/tms/web/controllers/EmployeeRestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-taskmanagement-web/src/main/java/com/knits/tms/web/controllers/ModuleRestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-taskmanagement-web/src/main/java/com/knits/tms/web/controllers/TrainerRestController.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/team-taskmanagement-core/target/" />
@@ -25,17 +58,62 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2392">
-              <caret line="207" column="4" selection-start-line="207" selection-start-column="4" selection-end-line="207" selection-end-column="4" />
+            <state relative-caret-position="-464">
+              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/team-taskmanagement-web/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="417">
+              <caret line="46" column="57" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/team-taskmanagement-web/pom.xml">
+        <entry file="file://$PROJECT_DIR$/team-taskmanagement-web/src/main/java/com/team/taskmanagement/web/TeamTaskManagementApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+            <state relative-caret-position="85">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/team-taskmanagement-core/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="51" selection-start-line="9" selection-end-line="9" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/config/TeamTaskMngCoreConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="51" column="71" selection-start-line="51" selection-start-column="71" selection-end-line="51" selection-end-column="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/dao/CustomerDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,8 +123,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -73,7 +152,6 @@
         <option value="$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/dao/CustomerRowMapper.java" />
         <option value="$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/config/AppDemoConfig.java" />
         <option value="$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/dao/DemoDao.java" />
-        <option value="$PROJECT_DIR$/team-taskmanagement-core/pom.xml" />
         <option value="$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/dao/helpers/CustomerRowMapper.java" />
         <option value="$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/dao/helpers/TaskRowMapper.java" />
         <option value="$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/dao/TaskDao.java" />
@@ -92,11 +170,18 @@
         <option value="$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/dao/UserDaoImpl.java" />
         <option value="$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/com/DemoMain.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/team-taskmanagement-core/pom.xml" />
         <option value="$PROJECT_DIR$/team-taskmanagement-web/pom.xml" />
+        <option value="$PROJECT_DIR$/team-taskmanagement-web/src/main/java/com/team/taskmanagement/web/TeamTaskManagementApplication.java" />
       </list>
     </option>
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="C:\build\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
@@ -120,11 +205,24 @@
           <item name="team-taskmanagement" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="team-taskmanagement-core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="team-taskmanagement-core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="team-taskmanagement-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1167" />
@@ -149,6 +247,32 @@
             <path>
               <item name="team-taskmanagement" type="b2602c69:ProjectViewProjectNode" />
               <item name="team-taskmanagemet-be" type="462c0819:PsiDirectoryNode" />
+              <item name="team-taskmanagement-core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="team-taskmanagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="team-taskmanagemet-be" type="462c0819:PsiDirectoryNode" />
+              <item name="team-taskmanagement-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="team-taskmanagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="team-taskmanagemet-be" type="462c0819:PsiDirectoryNode" />
+              <item name="team-taskmanagement-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="team-taskmanagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="team-taskmanagemet-be" type="462c0819:PsiDirectoryNode" />
+              <item name="team-taskmanagement-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="team-taskmanagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="team-taskmanagemet-be" type="462c0819:PsiDirectoryNode" />
               <item name="team-taskmanagement-web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -156,6 +280,30 @@
               <item name="team-taskmanagemet-be" type="462c0819:PsiDirectoryNode" />
               <item name="team-taskmanagement-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="team-taskmanagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="team-taskmanagemet-be" type="462c0819:PsiDirectoryNode" />
+              <item name="team-taskmanagement-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="team-taskmanagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="team-taskmanagemet-be" type="462c0819:PsiDirectoryNode" />
+              <item name="team-taskmanagement-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="team-taskmanagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="team-taskmanagemet-be" type="462c0819:PsiDirectoryNode" />
+              <item name="team-taskmanagement-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -169,7 +317,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.6896552" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -222,7 +370,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22761194" />
@@ -247,7 +395,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.23987207" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.23773988" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -351,26 +499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/config/TeamTaskMngCoreConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="51" column="71" selection-start-line="51" selection-start-column="71" selection-end-line="51" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/dao/CustomerDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/modal/Task.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -438,24 +566,110 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/team-taskmanagement-web/src/main/java/com/knits/tms/web/controllers/EditionRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team-taskmanagement-web/src/main/java/com/knits/tms/web/controllers/EmployeeRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team-taskmanagement-web/src/main/java/com/knits/tms/web/controllers/ModuleRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team-taskmanagement-web/src/main/java/com/knits/tms/web/controllers/TrainerRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team-taskmanagement-web/src/main/java/com/knits/tms/web/beans/ResponseBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team-taskmanagement-web/src/main/java/com/knits/tms/web/controllers/CourseRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team-taskmanagement-web/src/main/java/com/knits/tms/web/controllers/CommonRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/team-taskmanagement-core/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="38" />
+        <state relative-caret-position="153">
+          <caret line="9" column="51" selection-start-line="9" selection-end-line="9" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2392">
-          <caret line="207" column="4" selection-start-line="207" selection-start-column="4" selection-end-line="207" selection-end-column="4" />
+        <state relative-caret-position="-464">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team-taskmanagement-web/src/main/java/com/knits/tms/web/TmsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/team-taskmanagement-web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+        <state relative-caret-position="417">
+          <caret line="46" column="57" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/config/TeamTaskMngCoreConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="51" column="71" selection-start-line="51" selection-start-column="71" selection-end-line="51" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team-taskmanagement-core/src/main/java/com/team/taskmanagement/dao/CustomerDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team-taskmanagement-web/src/main/java/com/team/taskmanagement/web/TeamTaskManagementApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
