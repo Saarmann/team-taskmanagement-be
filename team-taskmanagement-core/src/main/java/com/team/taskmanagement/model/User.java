@@ -1,4 +1,4 @@
-package com.team.taskmanagement.modal;
+package com.team.taskmanagement.model;
 
 import lombok.Data;
 
@@ -11,17 +11,7 @@ import javax.persistence.NamedQuery;
 
 @Data
 @Entity
-@NamedQueries({
-        @NamedQuery(
-        name = "All_users",
-        query = "from User"
-        ),
 
-        @NamedQuery(
-                name = "User_byId",
-                query = "from User where id = :id"
-        )
-})
 
 public class User {
 

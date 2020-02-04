@@ -1,14 +1,19 @@
-package com.team.taskmanagement.modal;
+package com.team.taskmanagement.model;
 
 import lombok.Data;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.sql.Date;
 import java.sql.Time;
 
+@Entity
 @Data
 public class Task {
 
-    private long id;
+    @Id
+    private Long id;
+
     private Date taskDate;
     private Time startTime;
     private Time endTime;
@@ -17,7 +22,8 @@ public class Task {
     private String user;
     private Time timeSpent;
     private double hoursSpent;
-    private Customer registrationCode;
+
+  //  private Customer registrationCode;
 
 
     @Override

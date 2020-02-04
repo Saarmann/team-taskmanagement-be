@@ -1,7 +1,6 @@
 package com.team.taskmanagement.dao;
 
-import com.team.taskmanagement.modal.Task;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.team.taskmanagement.model.Task;
 
 import java.util.List;
 

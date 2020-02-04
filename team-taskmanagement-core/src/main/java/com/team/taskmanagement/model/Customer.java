@@ -1,14 +1,20 @@
-package com.team.taskmanagement.modal;
+package com.team.taskmanagement.model;
 
 import lombok.Data;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.util.ArrayList;
 import java.util.List;
 
+@Entity
 @Data
 public class Customer {
 
-    private long id;
+    @Id
+    private Long id;
+
+
     private String customerName;
     private String registrationCode;
     private String vatNo;
@@ -20,7 +26,8 @@ public class Customer {
     private String customerEmail;
     private String contact;
     private int paymentTerm;
-    private List<Task> customerTasks = new ArrayList<>();
+
+   // private List<Task> customerTasks = new ArrayList<>();
 
 //    @Override
 //    public String toString() {

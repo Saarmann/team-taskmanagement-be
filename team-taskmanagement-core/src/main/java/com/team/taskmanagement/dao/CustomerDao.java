@@ -1,21 +1,44 @@
 package com.team.taskmanagement.dao;
 
-import com.team.taskmanagement.modal.Customer;
-import com.team.taskmanagement.modal.Task;
+import com.team.taskmanagement.model.Customer;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-import java.util.List;
+import javax.persistence.NamedQueries;
+import javax.persistence.NamedQuery;
 
-public interface CustomerDao {
+@Repository
+public interface CustomerDao extends JpaRepository<Customer,Long>{
 
-    public void addCustomer (Customer customer);
 
-    public Customer findById (long id);
+    Customer findByCustomerName(String customerName);
 
-    public List<Customer> myCustomerList();
+/*
+    @NamedQueries({
+            @NamedQuery(
+                    name = "All_users",
+                    query = "from User"
+            ),
 
-    public void editCustomer (Customer customer, long id);
+            @NamedQuery(
+                    name = "User_byId",
+                    query = "from User where id = :id"
+            )
+    })*/
 
-    public List<Customer> findAll ();
 
+/*
+    @Query("your query")
+    List<Customer> nonStandardQueryMethod(@Param("tagnames") List<String> tagNames);
+*/
+
+
+/*  private static final String QRY_ALl = "SELECT c.id AS cid, c.customer_name, c.city, t.task_date, t.task_description, t.hours_spent " +
+                                            "FROM task t " +
+                                            "INNER JOIN customer c " +
+                                            "ON t.customer_id = c.id " ;
+
+ */
 
 }
+

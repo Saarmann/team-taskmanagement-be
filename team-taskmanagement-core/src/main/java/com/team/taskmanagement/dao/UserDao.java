@@ -1,6 +1,6 @@
 package com.team.taskmanagement.dao;
 
-import com.team.taskmanagement.modal.User;
+import com.team.taskmanagement.model.User;
 
 import java.util.List;
 
