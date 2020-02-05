@@ -2,18 +2,20 @@ package com.team.taskmanagement.model;
 
 import lombok.Data;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
 @Entity
 @Data
+//@NamedQuery(query="Select c from Customer c where c.customerName = :customerName",
+//            name = "find customer by name")
+
 public class Customer {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
-
 
     private String customerName;
     private String registrationCode;
@@ -27,25 +29,23 @@ public class Customer {
     private String contact;
     private int paymentTerm;
 
-   // private List<Task> customerTasks = new ArrayList<>();
 
-//    @Override
-//    public String toString() {
-//        return " \n Customer{" +
-//                "id=" + id +
-//                ", customerName=" + customerName +
-//                ", registrationCode='" + registrationCode + '\'' +
-//                ", vatNo='" + vatNo + '\'' +
-//                ", address='" + address + '\'' +
-//                ", city='" + city + '\'' +
-//                ", state='" + state + '\'' +
-//                ", country='" + country + '\'' +
-//                ", zip='" + zip + '\'' +
-//                ", customerEmail='" + customerEmail + '\'' +
-//                ", contact='" + contact + '\'' +
-//                ", paymentTerm=" + paymentTerm +
-//                ", customerTasks=" + customerTasks.toString() +
-//                "} ";
-//    }
+    @Override
+    public String toString() {
+        return " \n Customer{" +
+                "id=" + id +
+                ", customerName=" + customerName +
+                ", registrationCode='" + registrationCode + '\'' +
+                ", vatNo='" + vatNo + '\'' +
+                ", address='" + address + '\'' +
+                ", city='" + city + '\'' +
+                ", state='" + state + '\'' +
+                ", country='" + country + '\'' +
+                ", zip='" + zip + '\'' +
+                ", customerEmail='" + customerEmail + '\'' +
+                ", contact='" + contact + '\'' +
+                ", paymentTerm=" + paymentTerm +
+                "} ";
+    }
 
 }

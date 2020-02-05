@@ -3,6 +3,8 @@ package com.team.taskmanagement.model;
 import lombok.Data;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import java.sql.Date;
 import java.sql.Time;
@@ -12,6 +14,7 @@ import java.sql.Time;
 public class Task {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
 
     private Date taskDate;

@@ -1,6 +1,8 @@
 package com.team.taskmanagement.model;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import java.sql.Date;
 
@@ -8,6 +10,7 @@ import java.sql.Date;
 public class Invoice {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
 
     private String invoiceNumber;
