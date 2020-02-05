@@ -46,6 +46,13 @@ public class CustomerServiceIntegrationTest {
     }
 
 //    @Test
+//    public void customerTasks (){
+//        ApplicationContext context = new AnnotationConfigApplicationContext(TeamTaskMngCoreConfig.class);
+//        CustomerService customerService= context.getBean(CustomerService.class);
+//        System.out.println("Found "+customerService.customerTask());
+//    }
+
+//    @Test
 //    public void testEditCustomer() {
 //
 //    ApplicationContext context = new AnnotationConfigApplicationContext(TeamTaskMngCoreConfig.class);

@@ -40,4 +40,8 @@ public class CustomerService {
 
         return customerDao.customerPayment(days);
     }
+
+//    public List<Customer> customerTask () {
+//        return customerDao.resultList();
+//    }
 }

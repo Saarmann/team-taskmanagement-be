@@ -2,10 +2,7 @@ package com.team.taskmanagement.model;
 
 import lombok.Data;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.sql.Date;
 import java.sql.Time;
 
@@ -20,14 +17,13 @@ public class Task {
     private Date taskDate;
     private Time startTime;
     private Time endTime;
-    private String customerName;
     private String taskDescription;
-    private String user;
     private Time timeSpent;
     private double hoursSpent;
 
-  //  private Customer registrationCode;
-
+//    @ManyToOne
+//    @JoinColumn(name="customer_id")
+//    private Customer customerId;
 
     @Override
     public String toString() {
@@ -35,9 +31,7 @@ public class Task {
                 "taskDate=" + taskDate +
                 ", startTime=" + startTime +
                 ", endTime=" + endTime +
-                ", customerName='" + customerName + '\'' +
                 ", taskDescription='" + taskDescription + '\'' +
-                ", user='" + user + '\'' +
                 ", timeSpent=" + timeSpent +
                 ", hoursSpent=" + hoursSpent +
                 '}';

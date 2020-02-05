@@ -1,10 +1,12 @@
 package com.team.taskmanagement.model;
 
 import lombok.Data;
+import lombok.Getter;
 
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 
 @Entity
 @Data
@@ -29,6 +31,9 @@ public class Customer {
     private String contact;
     private int paymentTerm;
 
+//    @OneToMany(mappedBy = "customer_id")
+//    @Getter
+//    private List<Task> customerTasks = new ArrayList<>();
 
     @Override
     public String toString() {

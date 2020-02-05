@@ -1,7 +1,9 @@
 package com.team.taskmanagement.com.util;
 
 import com.team.taskmanagement.beans.CustomerDto;
+import com.team.taskmanagement.beans.TaskDto;
 import com.team.taskmanagement.model.Customer;
+import com.team.taskmanagement.model.Task;
 
 public class BeanMappingUtils {
 
@@ -23,5 +25,16 @@ public class BeanMappingUtils {
         return customer;
     }
 
+    public static Task dto2Model (TaskDto dto){
 
+        Task task = new Task();
+        task.setId(dto.getId());
+        task.setEndTime(dto.getEndTime());
+        task.setHoursSpent(dto.getHoursSpent());
+        task.setStartTime(dto.getStartTime());
+        task.setTaskDate(dto.getTaskDate());
+        task.setTaskDescription(dto.getTaskDescription());
+        task.setTimeSpent(dto.getTimeSpent());
+        return task;
+    }
 }
