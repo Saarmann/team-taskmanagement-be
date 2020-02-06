@@ -5,6 +5,7 @@ import lombok.Getter;
 
 import javax.persistence.*;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
@@ -31,9 +32,10 @@ public class Customer {
     private String contact;
     private int paymentTerm;
 
-//    @OneToMany(mappedBy = "customer_id")
-//    @Getter
-//    private List<Task> customerTasks = new ArrayList<>();
+//    @OneToMany(fetch = FetchType.LAZY, mappedBy = "customerId")
+//    @OneToMany
+//    @JoinColumn(name = "customerId")
+//    private Set<Task> task = new HashSet<Task>();
 
     @Override
     public String toString() {

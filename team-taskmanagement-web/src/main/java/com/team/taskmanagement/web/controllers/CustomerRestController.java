@@ -24,7 +24,6 @@ public class CustomerRestController {
     @RequestMapping (value = "/save", method = RequestMethod.POST,
             produces = MediaType.APPLICATION_JSON_VALUE,
             consumes = MediaType.APPLICATION_JSON_VALUE)
-
     public @ResponseBody
     ResponseBean<String> moduleProcess(@RequestBody CustomerDto customerDto){
         customerService.save(customerDto);
@@ -38,22 +37,19 @@ public class CustomerRestController {
         return customerList;
     }
 
-//    @RequestMapping(value = "/{customerName}", method = RequestMethod.GET,
-//            produces = MediaType.APPLICATION_JSON_VALUE)
-//    public @ResponseBody
-//    ResponseBean<Customer> find(@PathVariable String name) {
-//        Customer customer = customerService.findByCustomerName(name);
-//        return new ResponseBean<Customer>(customer);
-//    }
-
     @RequestMapping(value = "/{paymentTerm}", method = RequestMethod.GET)
     @ResponseBody
     public List<Customer> customerByPayment (@PathVariable("paymentTerm") Integer days) {
-
         List<Customer> customerList = new ArrayList<>(customerService.sortByPayment(days));
         return customerList;
     }
 
-
-
+    @RequestMapping (value = "/edit", method = RequestMethod.POST,
+            produces = MediaType.APPLICATION_JSON_VALUE,
+            consumes = MediaType.APPLICATION_JSON_VALUE)
+    public @ResponseBody
+    ResponseBean<CustomerDto> customerEdit(@RequestBody CustomerDto customerDto){
+        customerService.editCustomer(customerDto);
+        return new ResponseBean<CustomerDto>(customerDto);
+    }
 }

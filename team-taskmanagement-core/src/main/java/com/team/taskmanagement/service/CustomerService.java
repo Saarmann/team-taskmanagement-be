@@ -6,6 +6,7 @@ import com.team.taskmanagement.dao.CustomerDao;
 import com.team.taskmanagement.model.Customer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -16,13 +17,11 @@ public class CustomerService {
     private CustomerDao customerDao;
 
     public void save(CustomerDto customerDto) {
-
         Customer customer = BeanMappingUtils.dto2Model(customerDto);
         customerDao.save(customer);
     }
 
     public List<Customer> viewAllCustomers () {
-
         return customerDao.findAll();
     }
 
@@ -31,13 +30,7 @@ public class CustomerService {
         customerDao.save(customer);
     }
 
-    public Customer findByCustomerName(String customerName){
-
-        return customerDao.findByCustomerName(customerName);
-    }
-
     public List<Customer> sortByPayment (Integer days){
-
         return customerDao.customerPayment(days);
     }
 

@@ -12,9 +12,6 @@ import java.util.List;
 @Repository
 public interface CustomerDao extends JpaRepository<Customer,Long>{
 
-    @Query("Select c from Customer c where c.customerName = :customerName")
-    Customer findByCustomerName(@Param("customerName") String customerName);
-
     @Query("Select c from Customer c where c.paymentTerm >= :paymentTerm")
     List<Customer> customerPayment(@Param("paymentTerm") Integer days);
 
