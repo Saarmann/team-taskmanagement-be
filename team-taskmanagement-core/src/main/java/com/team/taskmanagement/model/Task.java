@@ -21,8 +21,7 @@ public class Task {
     private Time timeSpent;
     private double hoursSpent;
 
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name="customerId")
+    @ManyToOne
     private Customer customer;
 
     @Override

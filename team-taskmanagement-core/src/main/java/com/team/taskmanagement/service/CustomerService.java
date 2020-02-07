@@ -30,6 +30,10 @@ public class CustomerService {
         customerDao.save(customer);
     }
 
+    public Customer byId (Long id){
+        return customerDao.byId(id);
+    }
+
     public List<Customer> sortByPayment (Integer days){
         return customerDao.customerPayment(days);
     }

@@ -15,6 +15,10 @@ public interface CustomerDao extends JpaRepository<Customer,Long>{
     @Query("Select c from Customer c where c.paymentTerm >= :paymentTerm")
     List<Customer> customerPayment(@Param("paymentTerm") Integer days);
 
+    @Query("Select c from Customer c where c.id = :id")
+    Customer byId(@Param("id") Long id);
+
+
 //    @Query("Select customerName from Customer c inner join c.customerTasks")
 //    List<Customer> resultList ();
 

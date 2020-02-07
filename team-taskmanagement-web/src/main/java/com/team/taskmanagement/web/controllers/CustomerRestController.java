@@ -37,11 +37,17 @@ public class CustomerRestController {
         return customerList;
     }
 
-    @RequestMapping(value = "/{paymentTerm}", method = RequestMethod.GET)
+//    @RequestMapping(value = "/{paymentTerm}", method = RequestMethod.GET)
+//    @ResponseBody
+//    public List<Customer> customerByPayment (@PathVariable("paymentTerm") Integer days) {
+//        List<Customer> customerList = new ArrayList<>(customerService.sortByPayment(days));
+//        return customerList;
+//    }
+
+    @RequestMapping(value = "/{id}", method = RequestMethod.GET)
     @ResponseBody
-    public List<Customer> customerByPayment (@PathVariable("paymentTerm") Integer days) {
-        List<Customer> customerList = new ArrayList<>(customerService.sortByPayment(days));
-        return customerList;
+    public Customer customerByPayment (@PathVariable("id") Long id) {
+       return customerService.byId(id);
     }
 
     @RequestMapping (value = "/edit", method = RequestMethod.POST,
