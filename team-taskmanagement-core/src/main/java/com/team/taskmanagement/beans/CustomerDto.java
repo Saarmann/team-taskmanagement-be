@@ -19,6 +19,6 @@ public class CustomerDto {
     private String zip;
     private String customerEmail;
     private String contact;
-    private int paymentTerm;
+    private short paymentTerm;
 
 }

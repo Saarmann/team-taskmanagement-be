@@ -34,7 +34,7 @@ public class CustomerService {
         return customerDao.byId(id);
     }
 
-    public List<Customer> sortByPayment (Integer days){
+    public List<Customer> sortByPayment (Short days){
         return customerDao.customerPayment(days);
     }
 

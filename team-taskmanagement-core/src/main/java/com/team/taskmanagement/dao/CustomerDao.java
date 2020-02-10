@@ -13,7 +13,7 @@ import java.util.List;
 public interface CustomerDao extends JpaRepository<Customer,Long>{
 
     @Query("Select c from Customer c where c.paymentTerm >= :paymentTerm")
-    List<Customer> customerPayment(@Param("paymentTerm") Integer days);
+    List<Customer> customerPayment(@Param("paymentTerm") Short days);
 
     @Query("Select c from Customer c where c.id = :id")
     Customer byId(@Param("id") Long id);

@@ -18,7 +18,10 @@ public class Customer {
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
 
+    @Column (unique = true, nullable = false)
     private String customerName;
+
+    @Column (unique = true, nullable = false)
     private String registrationCode;
     private String vatNo;
     private String address;
@@ -28,7 +31,9 @@ public class Customer {
     private String zip;
     private String customerEmail;
     private String contact;
-    private int paymentTerm;
+
+    @Column (columnDefinition = "smallint default 1")
+    private short paymentTerm;
 
     @Override
     public String toString() {
