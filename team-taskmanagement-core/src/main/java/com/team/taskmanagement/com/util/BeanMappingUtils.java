@@ -1,8 +1,10 @@
 package com.team.taskmanagement.com.util;
 
 import com.team.taskmanagement.beans.CustomerDto;
+import com.team.taskmanagement.beans.InvoiceDto;
 import com.team.taskmanagement.beans.TaskDto;
 import com.team.taskmanagement.model.Customer;
+import com.team.taskmanagement.model.Invoice;
 import com.team.taskmanagement.model.Task;
 
 public class BeanMappingUtils {
@@ -36,5 +38,19 @@ public class BeanMappingUtils {
         task.setTaskDescription(dto.getTaskDescription());
         task.setTimeSpent(dto.getTimeSpent());
         return task;
+    }
+
+    public static Invoice dto2Model (InvoiceDto dto) {
+
+        Invoice invoice = new Invoice();
+        invoice.setId(dto.getId());
+        invoice.setInvoiceDate(dto.getInvoiceDate());
+        invoice.setCustomer(dto.getCustomer());
+        invoice.setInvoiceNumber(dto.getInvoiceNumber());
+        invoice.setDueDate(dto.getDueDate());
+        invoice.setInvoiceAmount(dto.getInvoiceAmount());
+        invoice.setInvoiceStatus(dto.getInvoiceStatus());
+        invoice.setInvoiceSent(dto.getInvoiceSent());
+        return invoice;
     }
 }

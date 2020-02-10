@@ -30,10 +30,6 @@ public class Customer {
     private String contact;
     private int paymentTerm;
 
-//    @OneToMany(cascade = CascadeType.ALL)
-//    @JoinColumn(name="CustomerId")
-//    private List<Task> customerTask = new ArrayList<Task>();
-
     @Override
     public String toString() {
         return " \n Customer{" +

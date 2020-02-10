@@ -1,6 +1,9 @@
 package com.team.taskmanagement.model;
 
+
+
 import lombok.Data;
+import lombok.Setter;
 
 import javax.persistence.*;
 import java.util.Date;
@@ -13,25 +16,27 @@ public class Invoice {
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
 
-    @Column (unique = true)
+    @Column (unique = true, nullable = false)
     private String invoiceNumber;
 
     @Temporal(TemporalType.DATE)
+    @Column(nullable = false)
     private Date invoiceDate;
 
     @Temporal(TemporalType.DATE)
+    @Column(nullable = false)
     private Date dueDate;
 
+    @Column
     private double invoiceAmount;
 
-    @Column (columnDefinition = "integer default 0")
-    private int invoiceStatus;
+    @Column (columnDefinition = "tinyint default 0")
+    private short invoiceStatus;
 
-    @Column (columnDefinition = "integer default 0")
-    private int invoiceSent;
+    @Column (columnDefinition = "tinyint default 0")
+    private short invoiceSent;
 
-    @ManyToOne
+    @ManyToOne (fetch=FetchType.EAGER)
     @JoinColumn(name = "customerId")
     private Customer customer;
-
 }
