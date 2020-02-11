@@ -1,6 +1,7 @@
 package com.team.taskmanagement.beans;
 
 import com.team.taskmanagement.model.Customer;
+import com.team.taskmanagement.model.User;
 import lombok.Data;
 
 import java.util.Date;
@@ -17,5 +18,6 @@ public class InvoiceDto {
     private short invoiceStatus;
     private short invoiceSent;
     private Customer customer;
+    private User user;
 
 }

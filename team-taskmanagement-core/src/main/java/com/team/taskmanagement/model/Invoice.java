@@ -39,4 +39,8 @@ public class Invoice {
     @ManyToOne (fetch=FetchType.EAGER)
     @JoinColumn(name = "customerId")
     private Customer customer;
+
+    @OneToOne
+    @JoinColumn (name="userId")
+    private User user;
 }

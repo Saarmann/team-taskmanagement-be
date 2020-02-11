@@ -46,6 +46,7 @@ public class BeanMappingUtils {
         invoice.setId(dto.getId());
         invoice.setInvoiceDate(dto.getInvoiceDate());
         invoice.setCustomer(dto.getCustomer());
+        invoice.setUser(dto.getUser());
         invoice.setInvoiceNumber(dto.getInvoiceNumber());
         invoice.setDueDate(dto.getDueDate());
         invoice.setInvoiceAmount(dto.getInvoiceAmount());
