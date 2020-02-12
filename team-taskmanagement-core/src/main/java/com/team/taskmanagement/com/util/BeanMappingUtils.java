@@ -37,6 +37,10 @@ public class BeanMappingUtils {
         task.setTaskDate(dto.getTaskDate());
         task.setTaskDescription(dto.getTaskDescription());
         task.setTimeSpent(dto.getTimeSpent());
+        task.setTaskStatus(dto.getTaskStatus());
+        task.setCustomer(dto.getCustomer());
+        task.setUser(dto.getUser());
+        task.setInvoice(dto.getInvoice());
         return task;
     }
 

@@ -1,9 +1,6 @@
 package com.team.taskmanagement.beans;
 
-import com.team.taskmanagement.model.Customer;
 import lombok.Data;
-
-import java.util.List;
 
 @Data
 public class CustomerDto {

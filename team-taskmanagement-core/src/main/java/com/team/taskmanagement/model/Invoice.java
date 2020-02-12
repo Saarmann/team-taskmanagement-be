@@ -1,7 +1,5 @@
 package com.team.taskmanagement.model;
 
-
-
 import lombok.Data;
 import lombok.Setter;
 

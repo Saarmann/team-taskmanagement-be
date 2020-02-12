@@ -4,13 +4,9 @@ import lombok.Data;
 import lombok.Getter;
 
 import javax.persistence.*;
-import java.util.ArrayList;
-import java.util.List;
 
 @Entity
 @Data
-//@NamedQuery(query="Select c from Customer c where c.customerName = :customerName",
-//            name = "find customer by name")
 
 public class Customer {
 
