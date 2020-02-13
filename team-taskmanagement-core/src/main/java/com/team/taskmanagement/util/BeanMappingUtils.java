@@ -1,4 +1,4 @@
-package com.team.taskmanagement.com.util;
+package com.team.taskmanagement.util;
 
 import com.team.taskmanagement.beans.CustomerDto;
 import com.team.taskmanagement.beans.InvoiceDto;

@@ -1,7 +1,7 @@
 package com.team.taskmanagement.service;
 
 import com.team.taskmanagement.beans.InvoiceDto;
-import com.team.taskmanagement.com.util.BeanMappingUtils;
+import com.team.taskmanagement.util.BeanMappingUtils;
 import com.team.taskmanagement.dao.InvoiceDao;
 import com.team.taskmanagement.model.Invoice;
 import org.springframework.beans.factory.annotation.Autowired;

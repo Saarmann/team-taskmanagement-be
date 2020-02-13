@@ -1,7 +1,7 @@
 package com.team.taskmanagement.service;
 
 import com.team.taskmanagement.beans.TaskDto;
-import com.team.taskmanagement.com.util.BeanMappingUtils;
+import com.team.taskmanagement.util.BeanMappingUtils;
 import com.team.taskmanagement.dao.TaskDao;
 import com.team.taskmanagement.model.Task;
 import org.springframework.beans.factory.annotation.Autowired;
