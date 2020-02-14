@@ -2,12 +2,7 @@ package com.team.taskmanagement.model;
 
 import lombok.Data;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.NamedQueries;
-import javax.persistence.NamedQuery;
+import javax.persistence.*;
 
 @Data
 @Entity
@@ -21,8 +16,16 @@ public class User {
 
     private String firstname;
     private String lastname;
+
+    @Column (unique = true, nullable = false)
     private String email;
+
+    @Column (nullable = false)
     private String password;
+
+    @OneToOne
+    @JoinColumn(name = "roleId")
+    private Role role;
 
     @Override
     public String toString() {

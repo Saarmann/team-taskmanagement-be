@@ -22,6 +22,11 @@ public class Task {
     private double hoursSpent;
 
     @Column (columnDefinition = "tinyint default 0")
+    private short priority;
+
+    private Date deadline;
+
+    @Column (columnDefinition = "tinyint default 0")
     private short taskStatus;
 
     @ManyToOne

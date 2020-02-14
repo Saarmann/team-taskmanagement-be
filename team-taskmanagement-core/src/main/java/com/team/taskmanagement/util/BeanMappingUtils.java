@@ -3,9 +3,8 @@ package com.team.taskmanagement.util;
 import com.team.taskmanagement.beans.CustomerDto;
 import com.team.taskmanagement.beans.InvoiceDto;
 import com.team.taskmanagement.beans.TaskDto;
-import com.team.taskmanagement.model.Customer;
-import com.team.taskmanagement.model.Invoice;
-import com.team.taskmanagement.model.Task;
+import com.team.taskmanagement.beans.UserDto;
+import com.team.taskmanagement.model.*;
 
 public class BeanMappingUtils {
 
@@ -36,6 +35,8 @@ public class BeanMappingUtils {
         task.setStartTime(dto.getStartTime());
         task.setTaskDate(dto.getTaskDate());
         task.setTaskDescription(dto.getTaskDescription());
+        task.setPriority(dto.getPriority());
+        task.setDeadline(dto.getDeadline());
         task.setTimeSpent(dto.getTimeSpent());
         task.setTaskStatus(dto.getTaskStatus());
         task.setCustomer(dto.getCustomer());
@@ -57,5 +58,17 @@ public class BeanMappingUtils {
         invoice.setInvoiceStatus(dto.getInvoiceStatus());
         invoice.setInvoiceSent(dto.getInvoiceSent());
         return invoice;
+    }
+
+    public static User dto2Model (UserDto dto){
+
+        User user = new User();
+        user.setFirstname(dto.getFirstname());
+        user.setLastname(dto.getLastname());
+        user.setEmail(dto.getEmail());
+        user.setPassword(dto.getPassword());
+        user.setId(dto.getId());
+        user.setRole(dto.getRole());
+        return user;
     }
 }

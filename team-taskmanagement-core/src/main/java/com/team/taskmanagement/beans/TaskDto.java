@@ -17,6 +17,8 @@ public class TaskDto {
     private String customerName;
     private String taskDescription;
     private Time timeSpent;
+    private short priority;
+    private Date deadline;
     private double hoursSpent;
     private short taskStatus;
     private Customer customer;
