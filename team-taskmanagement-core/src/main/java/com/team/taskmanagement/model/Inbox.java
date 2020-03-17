@@ -1,9 +1,8 @@
 package com.team.taskmanagement.model;
 
 import lombok.Data;
-
 import javax.persistence.*;
-import java.util.Date;
+import java.sql.Date;
 
 @Entity
 @Data
@@ -13,17 +12,15 @@ public class Inbox {
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
 
-    @Column(nullable = false)
-    private String from;
-
+    private Date emailDate;
     private String subject;
     private String emailBody;
-    private Date date;
+    private String emailFrom;
 
     @Column (columnDefinition = "tinyint default 0")
-    private short status;
+    private short emailStatus;
 
     @Column (columnDefinition = "tinyint default 0")
-    private short assigned;
+    private short emailAssigned;
 
 }
