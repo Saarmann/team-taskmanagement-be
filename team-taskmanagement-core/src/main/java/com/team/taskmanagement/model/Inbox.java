@@ -19,7 +19,11 @@ public class Inbox {
     private String subject;
     private String emailBody;
     private Date date;
+
+    @Column (columnDefinition = "tinyint default 0")
     private short status;
+
+    @Column (columnDefinition = "tinyint default 0")
     private short assigned;
 
 }
