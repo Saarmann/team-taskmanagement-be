@@ -1,25 +1,17 @@
-package com.team.taskmanagement.model;
+package com.team.taskmanagement.beans;
 
 import lombok.Data;
 
-import javax.persistence.*;
 import java.util.Date;
 
-@Entity
 @Data
-public class Inbox {
+public class InboxDto {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
-
-    @Column(nullable = false)
     private String from;
-
     private String subject;
     private String emailBody;
     private Date date;
     private short status;
     private short assigned;
-
 }
