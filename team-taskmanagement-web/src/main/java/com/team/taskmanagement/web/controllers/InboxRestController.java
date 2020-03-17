@@ -1,6 +1,5 @@
 package com.team.taskmanagement.web.controllers;
 
-<<<<<<< HEAD
 import com.team.taskmanagement.model.Inbox;
 import com.team.taskmanagement.service.InboxService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,7 +24,5 @@ public class InboxRestController {
         return mailList;
     }
 
-=======
-public class InboxRestController {
->>>>>>> origin/master
+
 }
