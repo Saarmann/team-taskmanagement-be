@@ -2,13 +2,14 @@ package com.team.taskmanagement.service;
 
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
+import io.jsonwebtoken.Claims;
 
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Function;
 
-public class JwtService {
+public class JwtTokenService {
 
     private String SECRET_KEY = "secret";
 
