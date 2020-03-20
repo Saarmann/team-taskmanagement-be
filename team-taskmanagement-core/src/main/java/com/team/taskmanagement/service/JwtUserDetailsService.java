@@ -1,5 +1,6 @@
 package com.team.taskmanagement.service;
 
+import com.team.taskmanagement.beans.UserDto;
 import com.team.taskmanagement.dao.UserDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.flyway.FlywayDataSource;
@@ -21,9 +22,9 @@ public class JwtUserDetailsService implements UserDetailsService {
     private UserService userService;
 
     @Override
-    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        com.team.taskmanagement.model.User user = userService.getByUsername(username);
-        return new User(user.getUsername(), user.getPassword(),
+    public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
+        com.team.taskmanagement.model.User user = userService.getByUsername(email);
+        return new UserDto(user.getEmail(), user.getPassword(),
                 new ArrayList<>());
     }
 }
