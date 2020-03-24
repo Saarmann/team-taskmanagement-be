@@ -5,9 +5,15 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
 import java.util.List;
+import java.util.Optional;
 
 public interface UserDao extends JpaRepository<User, Long> {
 
     @Query("Select u from User u where u.role = 2")
     List<User> teamMembers();
+
+    //for authentication
+    @Query("Select u from User u where u.username = :username")
+    List<User> usersByUsername();
+
 }

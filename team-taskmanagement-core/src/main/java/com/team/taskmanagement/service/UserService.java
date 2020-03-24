@@ -29,8 +29,5 @@ public class UserService {
         userDao.save(user);
     }
 
-    public void getByUsername () {
-
-    }
 
 }

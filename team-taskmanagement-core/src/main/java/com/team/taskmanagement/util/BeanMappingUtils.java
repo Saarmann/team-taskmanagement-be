@@ -65,6 +65,7 @@ public class BeanMappingUtils {
         User user = new User();
         user.setFirstname(dto.getFirstname());
         user.setLastname(dto.getLastname());
+        user.setUsername(dto.getUsername());
         user.setEmail(dto.getEmail());
         user.setPassword(dto.getPassword());
         user.setId(dto.getId());

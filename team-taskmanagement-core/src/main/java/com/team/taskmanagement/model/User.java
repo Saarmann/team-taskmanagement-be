@@ -6,8 +6,6 @@ import javax.persistence.*;
 
 @Data
 @Entity
-
-
 public class User {
 
     @Id
@@ -16,6 +14,9 @@ public class User {
 
     private String firstname;
     private String lastname;
+
+    @Column (nullable = false)
+    private String username;
 
     @Column (unique = true, nullable = false)
     private String email;
