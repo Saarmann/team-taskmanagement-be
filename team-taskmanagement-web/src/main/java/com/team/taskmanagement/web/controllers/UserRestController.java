@@ -22,7 +22,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Controller
-@CrossOrigin
+@CrossOrigin("*")
 @RequestMapping("*")
 public class UserRestController {
 

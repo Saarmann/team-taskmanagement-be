@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Controller
-@CrossOrigin
+@CrossOrigin("*")
 @RequestMapping("/rest/inbox")
 public class InboxRestController {
 

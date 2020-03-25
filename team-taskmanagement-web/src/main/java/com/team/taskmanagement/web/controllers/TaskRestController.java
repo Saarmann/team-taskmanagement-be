@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Controller
-@CrossOrigin
+@CrossOrigin("*")
 @RequestMapping("/rest/task")
 public class TaskRestController {
 
