@@ -29,5 +29,9 @@ public class UserService {
         userDao.save(user);
     }
 
+    // for authentication
+    public User findByUserName(String username) {
+        return userDao.usersByUsername(username);
+    }
 
 }
