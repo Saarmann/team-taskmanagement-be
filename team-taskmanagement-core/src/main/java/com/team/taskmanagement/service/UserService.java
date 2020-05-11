@@ -30,10 +30,6 @@ public class UserService {
         userDao.save(user);
     }
 
-    public User byId (Long id){
-        return userDao.byId(id);
-    }
-
     // for authentication
     public User findByUserName(String username) {
         return userDao.usersByUsername(username);

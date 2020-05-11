@@ -54,10 +54,10 @@ public class UserRestController {
         return new ResponseBean<>("User Saved");
     }
 
-    @RequestMapping(value = "/rest/user/{id}", method = RequestMethod.GET)
+    @RequestMapping(value = "/rest/user/{username}", method = RequestMethod.GET)
     @ResponseBody
-    public User userById (@PathVariable("id") Long id) {
-        return userService.byId(id);
+    public User userByUsername (@PathVariable("username") String username) {
+        return userService.findByUserName(username);
     }
 
     @RequestMapping(value = "/authenticate", method = RequestMethod.POST,
