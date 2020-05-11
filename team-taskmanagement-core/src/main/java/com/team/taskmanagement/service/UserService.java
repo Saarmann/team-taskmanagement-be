@@ -2,6 +2,7 @@ package com.team.taskmanagement.service;
 
 import com.team.taskmanagement.beans.UserDto;
 import com.team.taskmanagement.dao.UserDao;
+import com.team.taskmanagement.model.Customer;
 import com.team.taskmanagement.model.User;
 import com.team.taskmanagement.util.BeanMappingUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,6 +28,10 @@ public class UserService {
     public void addTeamMember(UserDto userDto){
         User user = BeanMappingUtils.dto2Model(userDto);
         userDao.save(user);
+    }
+
+    public User byId (Long id){
+        return userDao.byId(id);
     }
 
     // for authentication

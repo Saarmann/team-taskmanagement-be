@@ -54,6 +54,12 @@ public class UserRestController {
         return new ResponseBean<>("User Saved");
     }
 
+    @RequestMapping(value = "/rest/user/{id}", method = RequestMethod.GET)
+    @ResponseBody
+    public User userById (@PathVariable("id") Long id) {
+        return userService.byId(id);
+    }
+
     @RequestMapping(value = "/authenticate", method = RequestMethod.POST,
             produces = MediaType.APPLICATION_JSON_VALUE,
             consumes = MediaType.APPLICATION_JSON_VALUE)
